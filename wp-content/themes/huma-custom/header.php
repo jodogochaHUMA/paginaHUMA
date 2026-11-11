@@ -8,39 +8,24 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<div class="site-topbar">
-  <div class="wrap">
-    <div>
-      <a href="#">Campus Virtual</a> ·
-      <a href="#">Webmail</a> ·
-      <a href="#">UNI</a>
-    </div>
-    <div>
-      <a href="#">Noticias</a> ·
-      <a href="#">Agenda</a> ·
-      <a href="#">Contacto</a>
-    </div>
-  </div>
-</div>
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
 
 <header class="site-header">
-  <div class="wrap">
-    <div class="brand">
-      <h1><?php bloginfo('name'); ?></h1>
-      <p><?php bloginfo('description'); ?></p>
-    </div>
-  </div>
-</header>
+  <nav class="nav container" aria-label="Navegación principal">
+    <a class="brand" href="<?php echo esc_url(home_url('/')); ?>" aria-label="Facultad de Humanidades, inicio">
+      <span class="brand-mark" aria-hidden="true">H</span>
+      <span class="brand-name">Facultad de Humanidades,<br>Ciencias Sociales y Cultura Guaraní</span>
+    </a>
 
-<nav class="main-nav">
-  <div class="wrap">
-    <?php
-    wp_nav_menu(array(
-      'theme_location' => 'primary',
-      'container'      => false,
-      'fallback_cb'    => false,
-      'items_wrap'     => '%3$s',
-    ));
-    ?>
-  </div>
-</nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menú</button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="<?php echo esc_url(home_url('/#acerca')); ?>">La Facultad</a></li>
+      <li><a href="<?php echo esc_url(home_url('/#academico')); ?>">Académico</a></li>
+      <li><a href="<?php echo esc_url(home_url('/#formacion-grado')); ?>">Carreras</a></li>
+      <li><a href="<?php echo esc_url(home_url('/#investigacion')); ?>">Investigación y Extensión</a></li>
+      <li><a href="<?php echo esc_url(home_url('/#filiales')); ?>">Filiales</a></li>
+      <li><a class="nav-contact" href="<?php echo esc_url(home_url('/#contacto')); ?>">Contacto</a></li>
+    </ul>
+  </nav>
+</header>

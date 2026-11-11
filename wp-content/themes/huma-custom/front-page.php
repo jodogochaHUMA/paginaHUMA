@@ -1,180 +1,186 @@
 <?php get_header(); ?>
 
-<main>
+<main id="contenido">
+  <section class="hero" id="inicio" aria-labelledby="hero-title">
+    <div class="hero-content container">
+      <p class="eyebrow">Humanidades · Ciencias Sociales · Cultura Guaraní</p>
+      <h1 id="hero-title">Facultad de <span>Humanidades, Ciencias Sociales y Cultura Guaraní</span></h1>
+      <p class="hero-copy">Un espacio para el pensamiento, el diálogo y el conocimiento de las personas, las sociedades y nuestra cultura.</p>
+      <div class="hero-actions">
+        <a class="button" href="#formacion-grado">Explora la oferta académica</a>
+        <a class="button button-secondary" href="#acerca">Acerca de la Facultad</a>
+      </div>
+    </div>
+  </section>
 
-  <section class="hero">
-    <div class="wrap hero-grid">
+  <section class="intro container" id="acerca" aria-labelledby="acerca-title">
+    <div>
+      <p class="eyebrow">Institucional</p>
+      <h2 id="acerca-title">Acerca de la Facultad.</h2>
+    </div>
+    <div class="intro-copy">
+      <p>El 30 de diciembre de 1998 se crea la primera carrera nacional de Bilingüismo Guaraní – Castellano, en aquel tiempo, de la Facultad de Humanidades y Cultura Guaraní.</p>
+      <p>El 15 de febrero del año 2003 se puso a consideración del país los primeros graduados Licenciados en Bilingüismo Guaraní-Castellano, al mismo tiempo de inaugurarse el Campus Universitario de Encarnación.</p>
+      <p>En el 2004, la Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní crea la carrera de Ciencias de la Educación con Énfasis en Ciencias Sociales, Ciencias Básicas y Matemáticas.</p>
+      <p>Al inicio del 2008, la Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní habilita nuevas carreras de Licenciatura en Ciencias Sociales con Énfasis en Trabajo Social y Relaciones Internacionales.</p>
+      <p>Actualmente esta Unidad Académica ha diversificado su oferta académica ya que además de la Licenciatura de Bilingüismo Guaraní – Castellano cuenta con las carreras de Licenciatura en Ciencias Sociales, Educación, Lengua Inglesa, Psicología y otras especializaciones.</p>
+    </div>
+  </section>
+
+  <section class="section academic-section" id="academico" aria-labelledby="academico-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Académico</p>
+          <h2 id="academico-title">Formación académica.</h2>
+        </div>
+        <p>Conoce las propuestas de formación de grado y posgrado de la Facultad.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card" id="formacion-grado">
+          <span class="card-number" aria-hidden="true">01</span>
+          <h3>Formación Académica de Grado</h3>
+          <p>Información sobre carreras, perfiles de egreso, planes de estudio y requisitos de admisión.</p>
+          <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card" id="formacion-posgrado">
+          <span class="card-number" aria-hidden="true">02</span>
+          <h3>Formación Académica de Posgrado</h3>
+          <p>Espacio para conocer programas de especialización, maestrías y formación avanzada.</p>
+          <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card">
+          <span class="card-number" aria-hidden="true">03</span>
+          <h3>Curso Probatorio de Admisión</h3>
+          <p>Conoce el proceso de admisión y presenta tu postulación.</p>
+          <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="community" id="investigacion" aria-labelledby="investigacion-title">
+    <div class="community-inner container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Conocimiento y comunidad</p>
+          <h2 id="investigacion-title">Investigación y Extensión.</h2>
+        </div>
+        <p>Conoce los departamentos y las iniciativas que conectan la Facultad con la comunidad.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <span class="card-number" aria-hidden="true">01</span>
+          <h3>Departamento de Investigación</h3>
+          <p>Información sobre proyectos, equipos y actividades de investigación.</p>
+          <a href="#contacto">Visitar departamento <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card">
+          <span class="card-number" aria-hidden="true">02</span>
+          <h3>Extensión</h3>
+          <p>Actividades y proyectos de vinculación con la comunidad.</p>
+          <a href="#contacto">Conocer extensión <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card">
+          <span class="card-number" aria-hidden="true">03</span>
+          <h3>Departamento de Lenguas</h3>
+          <p>Conoce las propuestas y actividades del Departamento de Lenguas.</p>
+          <a href="#contacto">Conocer departamento <span aria-hidden="true">→</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container" id="calidad" aria-labelledby="calidad-title">
+    <div class="section-heading">
       <div>
-        <span class="eyebrow">Institución · Formación · Investigación · Comunidad</span>
-        <h2>Una facultad conectada con el pensamiento, la cultura y el territorio.</h2>
-        <p>
-          La Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní articula docencia,
-          investigación, extensión y posgrado para responder a los desafíos educativos, sociales
-          y culturales de Itapúa y del Paraguay.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="<?php echo esc_url(home_url('/la-facultad/')); ?>">Conocer la Facultad</a>
-          <a class="btn btn-secondary" href="<?php echo esc_url(home_url('/carreras/')); ?>">Explorar carreras</a>
+        <p class="eyebrow">Compromiso institucional</p>
+        <h2 id="calidad-title">Calidad Institucional.</h2>
+      </div>
+      <p>Información sobre los procesos, políticas e iniciativas orientados a la mejora continua de la Facultad.</p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <span class="card-number" aria-hidden="true">✓</span>
+        <h3>Mejora continua</h3>
+        <p>Espacio para publicar objetivos, acciones y avances de calidad institucional.</p>
+      </article>
+
+      <article class="card">
+        <span class="card-number" aria-hidden="true">✓</span>
+        <h3>Evaluación</h3>
+        <p>Información sobre mecanismos de evaluación y seguimiento institucional.</p>
+      </article>
+
+      <article class="card">
+        <span class="card-number" aria-hidden="true">✓</span>
+        <h3>Transparencia</h3>
+        <p>Documentos y recursos institucionales disponibles para la comunidad.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="noticias" aria-labelledby="noticias-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Actualidad</p>
+          <h2 id="noticias-title">Noticias.</h2>
         </div>
+        <p>Actividades, anuncios y novedades de la Facultad.</p>
       </div>
 
-      <aside class="panel">
-        <h3 class="panel-title">Actualidad institucional</h3>
-        <div class="panel-body">
-          <?php
-          $latest = new WP_Query(array(
-            'post_type'      => 'post',
-            'posts_per_page' => 3,
-            'post_status'    => 'publish'
-          ));
-          if ($latest->have_posts()) :
-            while ($latest->have_posts()) : $latest->the_post(); ?>
-              <article class="mini-post">
-                <div class="date"><?php echo esc_html(get_the_date('d \d\e F \d\e Y')); ?></div>
-                <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-              </article>
-            <?php endwhile; wp_reset_postdata();
-          else : ?>
-            <article class="mini-post">
-              <div class="date">Contenido de ejemplo</div>
-              <a href="#">Aquí aparecerán las últimas noticias</a>
-            </article>
-          <?php endif; ?>
+      <div class="news-card">
+        <p>Próximamente se publicarán aquí las noticias y actividades de la Facultad.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section filiales-section" id="filiales" aria-labelledby="filiales-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Presencia territorial</p>
+          <h2 id="filiales-title">Filiales.</h2>
         </div>
-      </aside>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <div class="section-heading">
-        <span class="eyebrow" style="color:#9a7410">Accesos principales</span>
-        <h2>Áreas principales</h2>
-        <p>Una portada institucional para organizar mejor la información más importante del sitio.</p>
+        <p>Selecciona una filial para acceder a su información.</p>
       </div>
 
-      <div class="grid-4">
-        <a class="card" href="<?php echo esc_url(home_url('/la-facultad/')); ?>">
-          <h3>La Facultad</h3>
-          <p>Historia, autoridades, normativa, misión, visión y organigrama institucional.</p>
+      <div class="filial-links" aria-label="Accesos a las filiales">
+        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Coronel Bogado">
+          <span>Filial Coronel Bogado</span><span aria-hidden="true">→</span>
         </a>
-
-        <a class="card" href="<?php echo esc_url(home_url('/carreras/')); ?>">
-          <h3>Carreras</h3>
-          <p>Oferta académica, coordinaciones, perfiles de egreso y datos por carrera.</p>
+        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial María Auxiliadora">
+          <span>Filial María Auxiliadora</span><span aria-hidden="true">→</span>
         </a>
-
-        <a class="card" href="<?php echo esc_url(home_url('/investigacion-y-extension/')); ?>">
-          <h3>Investigación y Extensión</h3>
-          <p>Producción científica, grupos, observatorios, revista y actividades comunitarias.</p>
+        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Mayor Otaño">
+          <span>Filial Mayor Otaño</span><span aria-hidden="true">→</span>
         </a>
-
-        <a class="card" href="<?php echo esc_url(home_url('/acreditaciones/')); ?>">
-          <h3>Acreditaciones</h3>
-          <p>Procesos de calidad, informes, resultados y documentos institucionales.</p>
+        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Natalio">
+          <span>Filial Natalio</span><span aria-hidden="true">→</span>
+        </a>
+        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial San Pedro del Paraná">
+          <span>Filial San Pedro del Paraná</span><span aria-hidden="true">→</span>
         </a>
       </div>
     </div>
   </section>
 
-  <section class="section band">
-    <div class="wrap">
-      <div class="section-heading">
-        <h2>Noticias destacadas</h2>
-        <p>Espacio para publicar novedades institucionales, convocatorias y vida académica.</p>
-      </div>
-
-      <div class="grid-3">
-        <?php
-        $news = new WP_Query(array(
-          'post_type'      => 'post',
-          'posts_per_page' => 3,
-          'post_status'    => 'publish'
-        ));
-        if ($news->have_posts()) :
-          while ($news->have_posts()) : $news->the_post(); ?>
-            <article class="card news-card">
-              <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-              <p><?php echo esc_html(huma_custom_excerpt(24)); ?></p>
-            </article>
-          <?php endwhile; wp_reset_postdata();
-        endif; ?>
-      </div>
+  <section class="contact section-alt" id="contacto" aria-labelledby="contacto-title">
+    <div class="container">
+      <p class="eyebrow">Estamos para escucharte</p>
+      <h2 id="contacto-title">Contacto.</h2>
+      <p>Si necesitas información sobre carreras, admisiones, investigación o extensión, podrás comunicarte con la Facultad.</p>
+      <a class="button" href="mailto:secretariageneralhuma@uni.edu.py">Solicitar información</a>
     </div>
   </section>
-
-  <section class="section">
-    <div class="wrap">
-      <div class="section-heading">
-        <h2>Documentos y convocatorias</h2>
-        <p>Área pensada para resoluciones, formularios, llamados y materiales institucionales.</p>
-      </div>
-
-      <div class="grid-3">
-        <article class="card doc-card">
-          <h3>Documentos institucionales</h3>
-          <p>Resoluciones, reglamentos, formularios y normativa relevante.</p>
-        </article>
-        <article class="card doc-card">
-          <h3>Convocatorias</h3>
-          <p>Becas, movilidad, concursos, proyectos y llamados académicos.</p>
-        </article>
-        <article class="card doc-card">
-          <h3>Calendario académico</h3>
-          <p>Fechas clave, cronogramas y actividades de interés para la comunidad.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section band">
-    <div class="wrap">
-      <div class="section-heading">
-        <h2>Departamentos y dependencias</h2>
-        <p>Sección para visibilizar las áreas misionales, académicas y administrativas.</p>
-      </div>
-
-      <div class="grid-4">
-        <article class="card dept-card">
-          <h3>Investigación y Extensión</h3>
-          <p>Proyectos, grupos, observatorios, revista y trabajos finales.</p>
-        </article>
-        <article class="card dept-card">
-          <h3>Académico</h3>
-          <p>Coordinaciones, carreras, horarios y seguimiento estudiantil.</p>
-        </article>
-        <article class="card dept-card">
-          <h3>Calidad</h3>
-          <p>Acreditaciones, mejora continua, autoevaluación y seguimiento.</p>
-        </article>
-        <article class="card dept-card">
-          <h3>Administrativo</h3>
-          <p>Procesos, servicios internos, documentación y atención institucional.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <div class="section-heading">
-        <h2>Acreditaciones y aseguramiento de la calidad</h2>
-        <p>Bloque específico para mostrar los avances y resultados institucionales.</p>
-      </div>
-
-      <div class="grid-2">
-        <article class="card qual-card">
-          <h3>Procesos de acreditación</h3>
-          <p>Información sobre carreras acreditadas, etapas, informes y evidencias.</p>
-        </article>
-        <article class="card qual-card">
-          <h3>Indicadores institucionales</h3>
-          <p>Estadísticas clave, cumplimiento de metas y seguimiento de la gestión.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
 </main>
 
 <?php get_footer(); ?>

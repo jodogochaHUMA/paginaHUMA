@@ -17,31 +17,31 @@ function huma_custom_setup() {
     ));
 }
 
-add_action('widgets_init', 'huma_custom_widgets');
-function huma_custom_widgets() {
-    register_sidebar(array(
-        'name'          => 'Sidebar páginas',
-        'id'            => 'sidebar-pages',
-        'before_widget' => '<div class="sidebar-box">',
-        'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>',
-    ));
-}
+add_action('wp_footer', 'huma_custom_menu_script');
+function huma_custom_menu_script() {
+    ?>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
 
-function huma_custom_excerpt($length = 28) {
-    $text = wp_strip_all_tags(get_the_excerpt(), true);
+        if (!menuButton || !navLinks) return;
 
-    if (empty($text)) {
-        $text = wp_strip_all_tags(get_the_content(), true);
-    }
+        menuButton.addEventListener('click', function () {
+          const isExpanded = menuButton.getAttribute('aria-expanded') === 'true';
+          menuButton.setAttribute('aria-expanded', String(!isExpanded));
+          navLinks.classList.toggle('is-open', !isExpanded);
+        });
 
-    $words = preg_split('/\s+/', $text);
+        navLinks.addEventListener('click', function (event) {
+          if (event.target.closest('a')) {
+            menuButton.setAttribute('aria-expanded', 'false');
+            navLinks.classList.remove('is-open');
+          }
+        });
 
-    if (count($words) > $length) {
-        $words = array_slice($words, 0, $length);
-        $text = implode(' ', $words) . '…';
-    }
-
-    return $text;
+        document.querySelector('#year')?.textContent = new Date().getFullYear();
+      });
+    </script>
+    <?php
 }
