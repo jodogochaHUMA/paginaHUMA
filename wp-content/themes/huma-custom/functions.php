@@ -21,6 +21,7 @@ function huma_custom_assets() {
         'hero'     => '4-2-1.png',
         'academic' => 'academ.webp',
         'filiales' => 'sanpe.webp',
+        'posgrado'  => 'pogradofondo-1.png',
     );
 
     $inline_css = ':root{';

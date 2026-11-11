@@ -110,6 +110,44 @@
     </div>
   </section>
 
+  <section class="section academic-section posgrado-section" id="posgrado" aria-labelledby="posgrado-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Formación avanzada</p>
+          <h2 id="posgrado-title">Posgrado.</h2>
+        </div>
+        <p>Conoce las propuestas de formación de posgrado de la Facultad.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Programas de Posgrado</h3>
+          <p>Información sobre programas, requisitos de admisión, planes de estudio y convocatorias.</p>
+          <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
+            Ver información <span aria-hidden="true">→</span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="noticias" aria-labelledby="noticias-title">
+    <div class="container">
+      <div class="section-heading">
+         <div>
+          <p class="eyebrow">Actualidad</p>
+          <h2 id="noticias-title">Noticias.</h2>
+        </div>
+         <p>Actividades, anuncios y novedades de la Facultad.</p>
+      </div>
+
+      <div class="news-card">
+        <p>Próximamente se publicarán aquí las noticias y actividades de la Facultad.</p>
+      </div>
+    </div>
+  </section>
+
   <section class="section container" id="calidad" aria-labelledby="calidad-title">
     <div class="section-heading">
       <div>
@@ -131,22 +169,6 @@
         <h3>Evaluación</h3>
         <p>Información sobre mecanismos de evaluación y seguimiento institucional.</p>
       </article>
-
-      <section class="section section-alt" id="noticias" aria-labelledby="noticias-title">
-        <div class="container">
-          <div class="section-heading">
-            <div>
-              <p class="eyebrow">Actualidad</p>
-              <h2 id="noticias-title">Noticias.</h2>
-            </div>
-            <p>Actividades, anuncios y novedades de la Facultad.</p>
-          </div>
-
-          <div class="news-card">
-            <p>Próximamente se publicarán aquí las noticias y actividades de la Facultad.</p>
-          </div>
-        </div>
-      </section>
 
       <article class="card">
         <span class="card-number" aria-hidden="true">✓</span>

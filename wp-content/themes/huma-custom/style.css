@@ -1063,3 +1063,11 @@ h3 {
       );
   }
 }
+
+/* Fondo de la sección de Posgrado */
+.posgrado-section::after {
+  background-image: var(
+    --huma-posgrado-image,
+    linear-gradient(120deg, #383838, #171717)
+  );
+}
