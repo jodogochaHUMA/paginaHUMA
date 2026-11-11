@@ -918,3 +918,33 @@ h3 {
     border-bottom-color: var(--line);
   }
 }
+
+/* Títulos bilingües de la portada */
+.hero .hero-title-es {
+  max-width: 880px;
+  margin: 0 0 0.65rem;
+  font-size: clamp(2.3rem, 4.8vw, 4.2rem);
+  letter-spacing: -0.04em;
+}
+
+.hero .hero-title-gn {
+  max-width: 880px;
+  margin: 0 0 1.5rem;
+  color: var(--yellow);
+  font-family: var(--serif);
+  font-size: clamp(2.1rem, 4.4vw, 3.9rem);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 520px) {
+  .hero .hero-title-es {
+    font-size: clamp(2.1rem, 9vw, 3.1rem);
+  }
+
+  .hero .hero-title-gn {
+    font-size: clamp(1.9rem, 8vw, 2.8rem);
+  }
+}

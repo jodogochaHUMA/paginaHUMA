@@ -3,13 +3,13 @@
 <main id="contenido">
   <section class="hero" id="inicio" aria-labelledby="hero-title">
     <div class="hero-content container">
-      <p class="eyebrow">Humanidades · Ciencias Sociales · Cultura Guaraní</p>
-      <h1 id="hero-title">Facultad de <span>Humanidades, Ciencias Sociales y Cultura Guaraní</span></h1>
-      <p class="hero-copy">Un espacio para el pensamiento, el diálogo y el conocimiento de las personas, las sociedades y nuestra cultura.</p>
-      <div class="hero-actions">
-        <a class="button" href="#formacion-grado">Explora la oferta académica</a>
-        <a class="button button-secondary" href="#acerca">Acerca de la Facultad</a>
-      </div>
+      <p class="eyebrow">Universidad Nacional de Itapúa</p>
+      <h1 class="hero-title-es" id="hero-title">
+      Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní
+      </h1>
+      <p class="hero-title-gn" lang="gn">
+        Yvyporareko, Tekoaty Rembikuaa ha Guarani Arandupy Mbo'ehaoite
+      </p>
     </div>
   </section>
 
