@@ -6,7 +6,7 @@ define( 'FORCE_SSL_ADMIN', true ); // Redirigir todas las solicitud de páginas 
 define( 'DISALLOW_FILE_EDIT', true ); // Desactivar editor de archivos - Seguridad > Ajustes > Ajustes WordPress > Editor de archivos
 // END Solid Security - No modifiques ni borres esta línea
 
-define( 'WP_CACHE', true ); // Boost Cache Plugin
+define( 'WP_CACHE', false ); // Boost Cache Plugin
 
 define( 'ITSEC_ENCRYPTION_KEY', 'L3VlYFJwR1VGUmoxW0A5N0ZUWCFeL1hSd11icFhlM3RxQlNvcEJ0cUM7T1QveFYrK3lxdCMjczFBWz1tez0pMg==' );
 
@@ -28,9 +28,9 @@ define( 'ITSEC_ENCRYPTION_KEY', 'L3VlYFJwR1VGUmoxW0A5N0ZUWCFeL1hSd11icFhlM3RxQlN
 /** El nombre de tu base de datos de WordPress */
 define('DB_NAME', 'humanidades_db');
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'humanidades_user');
+define('DB_USER', 'root');
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'J17d08g86ch.');
+define('DB_PASSWORD', '');
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
 /** Codificación de caracteres para la base de datos. */
@@ -72,6 +72,8 @@ $table_prefix  = 'v3_';
  * en sus entornos de desarrollo.
  */
 define('WP_DEBUG', false);
+define('WP_DEBUG_DISPLAY', false);
+@ini_set('display_errors', 0);
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 /** WordPress absolute path to the Wordpress directory. */
 if ( !defined('ABSPATH') )
@@ -79,3 +81,6 @@ if ( !defined('ABSPATH') )
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
 define('FS_METHOD', 'direct');
+
+define('WP_HTTP_BLOCK_EXTERNAL', true);
+define('WP_ACCESSIBLE_HOSTS', 'api.wordpress.org');

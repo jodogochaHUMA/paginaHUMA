@@ -1,0 +1,372 @@
+/*
+Theme Name: HUMA Custom
+Theme URI: https://humanidades.uni.edu.py
+Author: jodogochaHUMA
+Description: Tema institucional personalizado para la Facultad de Humanidades.
+Version: 1.0.0
+Text Domain: huma-custom
+*/
+
+:root{
+  --gold:#e1b21a;
+  --gold-dark:#9a7410;
+  --gold-soft:#f8efd0;
+  --black:#1d1d1b;
+  --ink:#222;
+  --ink-soft:#4d4a45;
+  --muted:#726d67;
+  --paper:#fff;
+  --paper-warm:#faf7ec;
+  --rule:#e4ddc8;
+  --wrap:1180px;
+  --shadow:0 10px 28px -18px rgba(0,0,0,.25);
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  font-family:'Segoe UI',system-ui,sans-serif;
+  background:var(--paper-warm);
+  color:var(--ink);
+  line-height:1.6;
+}
+img{max-width:100%;height:auto}
+a{color:var(--gold-dark);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.wrap{
+  width:min(var(--wrap), calc(100% - 40px));
+  margin:0 auto;
+}
+
+.site-topbar{
+  background:var(--black);
+  color:#f3e4b0;
+  font-size:13px;
+}
+.site-topbar .wrap{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  padding:8px 0;
+}
+.site-topbar a{color:#f3e4b0}
+
+.site-header{
+  background:#fff;
+  border-bottom:1px solid var(--rule);
+}
+.site-header .wrap{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  padding:22px 0;
+}
+.brand h1{
+  margin:0;
+  font-size:34px;
+  line-height:1.05;
+  font-family:Georgia,serif;
+}
+.brand p{
+  margin:4px 0 0;
+  color:var(--muted);
+  font-size:14px;
+}
+
+.main-nav{
+  background:#fff;
+  border-bottom:2px solid var(--gold);
+}
+.main-nav .wrap{
+  display:flex;
+  flex-wrap:wrap;
+}
+.main-nav a{
+  display:block;
+  padding:14px 16px;
+  color:var(--ink-soft);
+  font-weight:600;
+  border-right:1px solid var(--rule);
+}
+.main-nav a:hover{
+  background:var(--gold-soft);
+  text-decoration:none;
+  color:var(--black);
+}
+
+.hero{
+  background:linear-gradient(rgba(25,25,25,.72), rgba(25,25,25,.55)), linear-gradient(120deg, #4c4c4c, #1f1f1f);
+  color:#fff;
+  padding:64px 0;
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1.25fr) 350px;
+  gap:30px;
+  align-items:end;
+}
+.eyebrow{
+  display:inline-block;
+  font-size:11px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:#f1d678;
+  font-weight:700;
+  margin-bottom:10px;
+}
+.hero h2{
+  font-size:54px;
+  line-height:1.02;
+  margin:0 0 14px;
+  font-family:Georgia,serif;
+}
+.hero p{
+  font-size:18px;
+  color:rgba(255,255,255,.92);
+  max-width:62ch;
+  margin:0 0 20px;
+}
+.hero-actions{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+}
+.btn{
+  display:inline-block;
+  padding:11px 16px;
+  font-weight:700;
+  border:1px solid transparent;
+}
+.btn-primary{
+  background:var(--gold);
+  color:var(--black);
+}
+.btn-secondary{
+  color:#fff;
+  border-color:rgba(255,255,255,.4);
+}
+
+.panel{
+  background:#fff;
+  color:var(--ink);
+  border-top:3px solid var(--gold);
+  box-shadow:var(--shadow);
+}
+.panel-title{
+  margin:0;
+  background:var(--black);
+  color:var(--gold);
+  padding:14px 16px;
+  font-size:12px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+.panel-body{padding:16px}
+.mini-post{
+  padding-bottom:14px;
+  margin-bottom:14px;
+  border-bottom:1px solid var(--rule);
+}
+.mini-post:last-child{
+  margin-bottom:0;
+  padding-bottom:0;
+  border-bottom:none;
+}
+.mini-post .date{
+  font-size:12px;
+  color:var(--muted);
+  margin-bottom:4px;
+}
+.mini-post a{
+  font-family:Georgia,serif;
+  color:var(--ink);
+  font-size:19px;
+  line-height:1.3;
+}
+
+.section{
+  padding:42px 0;
+}
+.section-heading{
+  margin-bottom:18px;
+}
+.section-heading h2{
+  margin:0 0 8px;
+  font-family:Georgia,serif;
+  font-size:32px;
+}
+.section-heading p{
+  margin:0;
+  color:var(--muted);
+  max-width:70ch;
+}
+
+.grid-4{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:16px;
+}
+.grid-3{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+}
+.grid-2{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+}
+
+.card{
+  background:#fff;
+  border:1px solid var(--rule);
+  padding:22px;
+  box-shadow:var(--shadow);
+}
+.card h3{
+  margin:0 0 10px;
+  font-family:Georgia,serif;
+  font-size:22px;
+  line-height:1.2;
+}
+.card p{
+  margin:0;
+  color:var(--ink-soft);
+}
+.card ul{
+  margin:12px 0 0;
+  padding-left:18px;
+  color:var(--ink-soft);
+}
+
+.news-card h3,
+.doc-card h3,
+.dept-card h3,
+.qual-card h3{
+  font-size:24px;
+}
+
+.band{
+  background:#fffaf0;
+  border-top:1px solid var(--rule);
+  border-bottom:1px solid var(--rule);
+}
+
+.site-footer-top{
+  background:#fff;
+  border-top:1px solid var(--rule);
+  padding:36px 0;
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  gap:30px;
+}
+.site-footer-bottom{
+  background:var(--black);
+  color:#f3e4b0;
+  text-align:center;
+  padding:14px 0;
+  font-size:12px;
+}
+
+.page-shell{
+  padding:30px 0 60px;
+}
+.page-grid{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 300px;
+  gap:36px;
+}
+.page-content{
+  background:#fff;
+  border:1px solid var(--rule);
+  padding:30px;
+  box-shadow:var(--shadow);
+}
+.page-title{
+  margin:0 0 10px;
+  font-family:Georgia,serif;
+  font-size:40px;
+}
+.sidebar-box{
+  background:#fff;
+  border:1px solid var(--rule);
+  margin-bottom:18px;
+}
+.sidebar-box h3{
+  margin:0;
+  padding:12px 14px;
+  background:var(--black);
+  color:var(--gold);
+  font-size:12px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+.sidebar-box ul{
+  list-style:none;
+  margin:0;
+  padding:8px 0;
+}
+.sidebar-box li{
+  border-bottom:1px solid var(--rule);
+}
+.sidebar-box li:last-child{
+  border-bottom:none;
+}
+.sidebar-box a{
+  display:block;
+  padding:10px 14px;
+  color:var(--ink-soft);
+}
+
+.post-list{
+  display:grid;
+  gap:18px;
+}
+.post-card{
+  background:#fff;
+  border:1px solid var(--rule);
+  padding:22px;
+  box-shadow:var(--shadow);
+}
+.post-card h2{
+  margin:0 0 8px;
+  font-size:28px;
+  font-family:Georgia,serif;
+}
+.post-meta{
+  font-size:12px;
+  color:var(--muted);
+  margin-bottom:10px;
+}
+
+@media (max-width: 1024px){
+  .hero-grid,
+  .page-grid,
+  .footer-grid{
+    grid-template-columns:1fr;
+  }
+  .grid-4{
+    grid-template-columns:repeat(2,1fr);
+  }
+  .grid-3{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media (max-width: 640px){
+  .grid-4,
+  .grid-3,
+  .grid-2{
+    grid-template-columns:1fr;
+  }
+  .hero h2{
+    font-size:38px;
+  }
+  .page-title{
+    font-size:30px;
+  }
+}
