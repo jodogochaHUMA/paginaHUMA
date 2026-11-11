@@ -135,16 +135,77 @@
   <section class="section section-alt" id="noticias" aria-labelledby="noticias-title">
     <div class="container">
       <div class="section-heading">
-         <div>
+        <div>
           <p class="eyebrow">Actualidad</p>
           <h2 id="noticias-title">Noticias.</h2>
         </div>
-         <p>Actividades, anuncios y novedades de la Facultad.</p>
+        <p>Las últimas noticias y actividades de la Facultad.</p>
       </div>
 
-      <div class="news-card">
-        <p>Próximamente se publicarán aquí las noticias y actividades de la Facultad.</p>
-      </div>
+      <?php
+      $news_query = new WP_Query(array(
+        'post_type'           => 'post',
+        'post_status'         => 'publish',
+        'posts_per_page'      => 5,
+        'orderby'             => 'date',
+        'order'               => 'DESC',
+        'ignore_sticky_posts' => true,
+      ));
+      ?>
+
+      <?php if ($news_query->have_posts()) : ?>
+        <div class="news-carousel" data-news-carousel>
+          <?php if ($news_query->post_count > 1) : ?>
+            <div class="news-carousel-controls">
+              <button type="button" class="news-carousel-button"
+                      data-carousel-prev aria-label="Mostrar noticias anteriores">
+                <span aria-hidden="true">←</span>
+              </button>
+              <button type="button" class="news-carousel-button"
+                      data-carousel-next aria-label="Mostrar noticias siguientes">
+                <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          <?php endif; ?>
+
+          <div class="news-carousel-track" data-carousel-track
+              aria-label="Últimas noticias" tabindex="0">
+            <?php while ($news_query->have_posts()) : $news_query->the_post(); ?>
+              <article class="news-carousel-card">
+                <?php if (has_post_thumbnail()) : ?>
+                  <a class="news-carousel-image" href="<?php echo esc_url(get_permalink()); ?>"
+                    tabindex="-1" aria-hidden="true">
+                    <?php the_post_thumbnail('large'); ?>
+                  </a>
+                <?php endif; ?>
+
+                <div class="news-carousel-content">
+                  <p class="news-carousel-date">
+                    <?php echo esc_html(get_the_date('j \d\e F \d\e Y')); ?>
+                  </p>
+                  <h3>
+                    <a href="<?php echo esc_url(get_permalink()); ?>">
+                      <?php echo esc_html(get_the_title()); ?>
+                    </a>
+                  </h3>
+                  <p class="news-carousel-excerpt">
+                    <?php echo esc_html(huma_custom_excerpt(24)); ?>
+                  </p>
+                  <a class="news-carousel-link" href="<?php echo esc_url(get_permalink()); ?>">
+                    Leer noticia <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </article>
+            <?php endwhile; ?>
+          </div>
+        </div>
+      <?php else : ?>
+        <div class="news-card">
+          <p>Todavía no hay noticias publicadas.</p>
+        </div>
+      <?php endif; ?>
+
+      <?php wp_reset_postdata(); ?>
     </div>
   </section>
 

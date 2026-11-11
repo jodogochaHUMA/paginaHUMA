@@ -220,6 +220,45 @@ function huma_custom_footer_script() {
         if (year) {
           year.textContent = new Date().getFullYear();
         }
+
+        document.querySelectorAll('[data-news-carousel]').forEach(function (carousel) {
+            const track = carousel.querySelector('[data-carousel-track]');
+            const previous = carousel.querySelector('[data-carousel-prev]');
+            const next = carousel.querySelector('[data-carousel-next]');
+
+            if (!track || !previous || !next) return;
+
+            function updateButtons() {
+                const maxScroll = track.scrollWidth - track.clientWidth;
+                previous.disabled = track.scrollLeft <= 2;
+                next.disabled = track.scrollLeft >= maxScroll - 2;
+            }
+
+            function scrollByCard(direction) {
+                const cards = track.querySelectorAll('.news-carousel-card');
+                if (!cards.length) return;
+
+                const gap = parseFloat(getComputedStyle(track).gap) || 0;
+                const distance = cards[0].getBoundingClientRect().width + gap;
+
+                track.scrollBy({
+                left: direction * distance,
+                behavior: 'smooth'
+                });
+            }
+
+            previous.addEventListener('click', function () {
+                scrollByCard(-1);
+            });
+
+            next.addEventListener('click', function () {
+                scrollByCard(1);
+            });
+
+            track.addEventListener('scroll', updateButtons, { passive: true });
+            window.addEventListener('resize', updateButtons);
+            updateButtons();
+            });
       });
     </script>
     <?php
