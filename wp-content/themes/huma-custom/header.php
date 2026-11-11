@@ -36,10 +36,12 @@ $logo_url = trailingslashit($uploads['baseurl'])
     </button>
 
     <ul class="nav-links" id="nav-links">
-      <li><a href="<?php echo esc_url(home_url('/#acerca')); ?>">La Facultad</a></li>
+      <li><a href="<?php echo esc_url(home_url('/#acerca')); ?>">Institucional</a></li>
       <li><a href="<?php echo esc_url(home_url('/#academico')); ?>">Académico</a></li>
-      <li><a href="<?php echo esc_url(home_url('/#formacion-grado')); ?>">Carreras</a></li>
       <li><a href="<?php echo esc_url(home_url('/#investigacion')); ?>">Investigación y Extensión</a></li>
+      <li><a href="<?php echo esc_url(home_url('/#posgrado')); ?>">Posgrado</a></li>
+      <li><a href="<?php echo esc_url(home_url('/#calidad')); ?>">Calidad</a></li>
+      <li><a href="<?php echo esc_url(home_url('/#administracion')); ?>">Administración</a></li>
       <li><a href="<?php echo esc_url(home_url('/#filiales')); ?>">Filiales</a></li>
       <li><a class="nav-contact" href="<?php echo esc_url(home_url('/#contacto')); ?>">Contacto</a></li>
     </ul>

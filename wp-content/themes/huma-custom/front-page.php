@@ -51,29 +51,26 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">Académico</p>
-          <h2 id="academico-title">Formación académica.</h2>
+          <h2 id="academico-title">Dirección académica.</h2>
         </div>
-        <p>Conoce las propuestas de formación de grado y posgrado de la Facultad.</p>
+        <p>Conoce las propuestas de formación de grado de la Facultad.</p>
       </div>
 
       <div class="cards">
         <article class="card" id="formacion-grado">
-          <span class="card-number" aria-hidden="true">01</span>
-          <h3>Formación Académica de Grado</h3>
+          <h3>Carreras</h3>
           <p>Información sobre carreras, perfiles de egreso, planes de estudio y requisitos de admisión.</p>
           <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card" id="formacion-posgrado">
-          <span class="card-number" aria-hidden="true">02</span>
-          <h3>Formación Académica de Posgrado</h3>
-          <p>Espacio para conocer programas de especialización, maestrías y formación avanzada.</p>
+          <h3>Coordinación de Carreras</h3>
+          <p>Espacio para conocer más sobre las carreras.</p>
           <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card">
-          <span class="card-number" aria-hidden="true">03</span>
-          <h3>Curso Probatorio de Admisión</h3>
+          <h3>Admisión</h3>
           <p>Conoce el proceso de admisión y presenta tu postulación.</p>
           <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
         </article>
@@ -93,21 +90,18 @@
 
       <div class="cards">
         <article class="card">
-          <span class="card-number" aria-hidden="true">01</span>
           <h3>Departamento de Investigación</h3>
           <p>Información sobre proyectos, equipos y actividades de investigación.</p>
           <a href="#contacto">Visitar departamento <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card">
-          <span class="card-number" aria-hidden="true">02</span>
-          <h3>Extensión</h3>
+          <h3>Departamento de Extensión</h3>
           <p>Actividades y proyectos de vinculación con la comunidad.</p>
-          <a href="#contacto">Conocer extensión <span aria-hidden="true">→</span></a>
+          <a href="#contacto">Conocer departamento <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card">
-          <span class="card-number" aria-hidden="true">03</span>
           <h3>Departamento de Lenguas</h3>
           <p>Conoce las propuestas y actividades del Departamento de Lenguas.</p>
           <a href="#contacto">Conocer departamento <span aria-hidden="true">→</span></a>
@@ -138,27 +132,27 @@
         <p>Información sobre mecanismos de evaluación y seguimiento institucional.</p>
       </article>
 
+      <section class="section section-alt" id="noticias" aria-labelledby="noticias-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Actualidad</p>
+              <h2 id="noticias-title">Noticias.</h2>
+            </div>
+            <p>Actividades, anuncios y novedades de la Facultad.</p>
+          </div>
+
+          <div class="news-card">
+            <p>Próximamente se publicarán aquí las noticias y actividades de la Facultad.</p>
+          </div>
+        </div>
+      </section>
+
       <article class="card">
         <span class="card-number" aria-hidden="true">✓</span>
         <h3>Transparencia</h3>
         <p>Documentos y recursos institucionales disponibles para la comunidad.</p>
       </article>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="noticias" aria-labelledby="noticias-title">
-    <div class="container">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Actualidad</p>
-          <h2 id="noticias-title">Noticias.</h2>
-        </div>
-        <p>Actividades, anuncios y novedades de la Facultad.</p>
-      </div>
-
-      <div class="news-card">
-        <p>Próximamente se publicarán aquí las noticias y actividades de la Facultad.</p>
-      </div>
     </div>
   </section>
 
