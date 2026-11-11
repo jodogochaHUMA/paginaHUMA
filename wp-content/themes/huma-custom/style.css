@@ -1199,3 +1199,11 @@ h3 {
     flex-basis: 88%;
   }
 }
+
+.community .card h3 {
+  color: var(--ink);
+}
+
+.community .card a {
+  color: #76580d;
+}
