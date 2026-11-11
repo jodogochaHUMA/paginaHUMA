@@ -18,7 +18,7 @@ function huma_custom_assets() {
     );
 
     $image_variables = array(
-        'hero'     => '4-1.png',
+        'hero'     => '4-2-1.png',
         'academic' => 'academ.webp',
         'filiales' => 'sanpe.webp',
     );
@@ -177,6 +177,21 @@ function huma_custom_footer_script() {
       document.addEventListener('DOMContentLoaded', function () {
         const menuButton = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
+
+        const header = document.querySelector('#site-header');
+
+        if (header) {
+        const updateHeaderTransparency = function () {
+            // Al llegar a 400 px de desplazamiento, el fondo llega a 30 % de opacidad.
+            const progress = Math.min(window.scrollY / 400, 1);
+            const alpha = 1 - (progress * 0.7);
+
+            header.style.setProperty('--header-alpha', alpha.toFixed(2));
+        };
+
+        updateHeaderTransparency();
+        window.addEventListener('scroll', updateHeaderTransparency, { passive: true });
+        }
 
         if (menuButton && navLinks) {
           menuButton.addEventListener('click', function () {

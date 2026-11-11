@@ -859,3 +859,62 @@ h3 {
     animation-duration: 0.01ms !important;
   }
 }
+
+/* Header oscuro con transparencia progresiva al desplazarse */
+.site-header {
+  --header-alpha: 1;
+  background-color: rgba(23, 23, 23, var(--header-alpha));
+  border-bottom-color: rgba(232, 225, 207, calc(var(--header-alpha) * 0.3));
+  transition:
+    background-color 100ms linear,
+    border-color 100ms linear;
+}
+
+.brand {
+  flex: 0 1 auto;
+  color: #fff;
+}
+
+.brand-logo {
+  display: block;
+  width: auto;
+  max-width: min(320px, 42vw);
+  height: 64px;
+  object-fit: contain;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+.nav-links a:hover {
+  color: var(--yellow);
+}
+
+.nav-links .nav-contact {
+  border-color: var(--yellow);
+  background: var(--yellow);
+  color: var(--black);
+}
+
+.nav-links .nav-contact:hover {
+  background: var(--yellow-light);
+  color: var(--black);
+}
+
+.menu-toggle {
+  border-color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+}
+
+@media (max-width: 900px) {
+  .brand-logo {
+    max-width: min(250px, 58vw);
+    height: 54px;
+  }
+
+  .nav-links {
+    background: rgba(23, 23, 23, var(--header-alpha));
+    border-bottom-color: var(--line);
+  }
+}
