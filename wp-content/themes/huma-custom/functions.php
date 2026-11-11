@@ -19,8 +19,8 @@ function huma_custom_assets() {
 
     $image_variables = array(
         'hero'     => '4-2-1.png',
-        'academic' => 'academ.webp',
-        'filiales' => 'sanpe.webp',
+        'academic' => 'academ.png',
+        'filiales' => 'sanpe.png',
         'posgrado'  => 'pogradofondo-1.png',
     );
 

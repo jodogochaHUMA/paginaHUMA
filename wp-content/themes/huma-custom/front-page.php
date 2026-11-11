@@ -35,7 +35,7 @@
   <section class="intro container" id="acerca" aria-labelledby="acerca-title">
     <div>
       <p class="eyebrow">Institucional</p>
-      <h2 id="acerca-title">Acerca de la Facultad.</h2>
+      <h2 id="acerca-title">Acerca de la Facultad</h2>
     </div>
     <div class="intro-copy">
       <p>El 30 de diciembre de 1998 se crea la primera carrera nacional de Bilingüismo Guaraní – Castellano, en aquel tiempo, de la Facultad de Humanidades y Cultura Guaraní.</p>
@@ -43,6 +43,7 @@
       <p>En el 2004, la Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní crea la carrera de Ciencias de la Educación con Énfasis en Ciencias Sociales, Ciencias Básicas y Matemáticas.</p>
       <p>Al inicio del 2008, la Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní habilita nuevas carreras de Licenciatura en Ciencias Sociales con Énfasis en Trabajo Social y Relaciones Internacionales.</p>
       <p>Actualmente esta Unidad Académica ha diversificado su oferta académica ya que además de la Licenciatura de Bilingüismo Guaraní – Castellano cuenta con las carreras de Licenciatura en Ciencias Sociales, Educación, Lengua Inglesa, Psicología y otras especializaciones.</p>
+      <a class="button intro-more" href="<?php echo esc_url(home_url('/institucional/')); ?>">Ver más</a>
     </div>
   </section>
 
@@ -51,28 +52,44 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">Académico</p>
-          <h2 id="academico-title">Dirección académica.</h2>
+          <h2 id="academico-title">Dirección Académica</h2>
         </div>
-        <p>Conoce las propuestas de formación de grado de la Facultad.</p>
+        <p>Conoce las propuestas de formación de grado de la Facultad</p>
       </div>
 
       <div class="cards">
         <article class="card" id="formacion-grado">
           <h3>Carreras</h3>
-          <p>Información sobre carreras, perfiles de egreso, planes de estudio y requisitos de admisión.</p>
+          <p>Información sobre carreras, perfiles de egreso, planes de estudio y requisitos de admisión</p>
           <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card" id="formacion-posgrado">
           <h3>Coordinación de Carreras</h3>
-          <p>Espacio para conocer más sobre las carreras.</p>
+          <p>Espacio para conocer más sobre las carreras</p>
           <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card">
           <h3>Admisión</h3>
-          <p>Conoce el proceso de admisión y presenta tu postulación.</p>
+          <p>Conoce el proceso de admisión y presenta tu postulación</p>
           <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
+        </article>
+
+        <article class="card">
+          <h3>Bienestar Estudiantil</h3>
+          <p>Servicios, acompañamiento y actividades destinados al bienestar de la comunidad estudiantil.</p>
+          <a href="<?php echo esc_url(home_url('/bienestar-estudiantil/')); ?>">
+            Ver información <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Documentos</h3>
+          <p>Accede a reglamentos, formularios, calendarios y otros documentos académicos.</p>
+          <a href="<?php echo esc_url(home_url('/documentos/')); ?>">
+            Ver documentos <span aria-hidden="true">→</span>
+          </a>
         </article>
       </div>
     </div>
@@ -83,27 +100,27 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">Conocimiento y comunidad</p>
-          <h2 id="investigacion-title">Investigación y Extensión.</h2>
+          <h2 id="investigacion-title">Investigación y Extensión</h2>
         </div>
-        <p>Conoce los departamentos y las iniciativas que conectan la Facultad con la comunidad.</p>
+        <p>Conoce los departamentos y las iniciativas que conectan la Facultad con la comunidad</p>
       </div>
 
       <div class="cards">
         <article class="card">
           <h3>Departamento de Investigación</h3>
-          <p>Información sobre proyectos, equipos y actividades de investigación.</p>
+          <p>Información sobre proyectos, equipos y actividades de investigación</p>
           <a href="#contacto">Visitar departamento <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card">
           <h3>Departamento de Extensión</h3>
-          <p>Actividades y proyectos de vinculación con la comunidad.</p>
+          <p>Actividades y proyectos de vinculación con la comunidad</p>
           <a href="#contacto">Conocer departamento <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card">
           <h3>Departamento de Lenguas</h3>
-          <p>Conoce las propuestas y actividades del Departamento de Lenguas.</p>
+          <p>Conoce las propuestas y actividades del Departamento de Lenguas</p>
           <a href="#contacto">Conocer departamento <span aria-hidden="true">→</span></a>
         </article>
       </div>
@@ -117,13 +134,13 @@
           <p class="eyebrow">Formación avanzada</p>
           <h2 id="posgrado-title">Posgrado.</h2>
         </div>
-        <p>Conoce las propuestas de formación de posgrado de la Facultad.</p>
+        <p>Conoce las propuestas de formación de posgrado de la Facultad</p>
       </div>
 
       <div class="cards">
         <article class="card">
           <h3>Programas de Posgrado</h3>
-          <p>Información sobre programas, requisitos de admisión, planes de estudio y convocatorias.</p>
+          <p>Información sobre programas, requisitos de admisión, planes de estudio y convocatorias</p>
           <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
             Ver información <span aria-hidden="true">→</span>
           </a>
@@ -137,9 +154,9 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">Actualidad</p>
-          <h2 id="noticias-title">Noticias.</h2>
+          <h2 id="noticias-title">Noticias</h2>
         </div>
-        <p>Las últimas noticias y actividades de la Facultad.</p>
+        <p>Las últimas noticias y actividades de la Facultad</p>
       </div>
 
       <?php
@@ -201,7 +218,7 @@
         </div>
       <?php else : ?>
         <div class="news-card">
-          <p>Todavía no hay noticias publicadas.</p>
+          <p>Todavía no hay noticias publicadas</p>
         </div>
       <?php endif; ?>
 
@@ -213,29 +230,51 @@
     <div class="section-heading">
       <div>
         <p class="eyebrow">Compromiso institucional</p>
-        <h2 id="calidad-title">Calidad Institucional.</h2>
+        <h2 id="calidad-title">Calidad Institucional</h2>
       </div>
-      <p>Información sobre los procesos, políticas e iniciativas orientados a la mejora continua de la Facultad.</p>
+      <p>Información sobre los procesos, políticas e iniciativas orientados a la mejora continua de la Facultad</p>
     </div>
 
     <div class="cards">
       <article class="card">
         <span class="card-number" aria-hidden="true">✓</span>
         <h3>Mejora continua</h3>
-        <p>Espacio para publicar objetivos, acciones y avances de calidad institucional.</p>
+        <p>Espacio para publicar objetivos, acciones y avances de calidad institucional</p>
       </article>
 
       <article class="card">
         <span class="card-number" aria-hidden="true">✓</span>
         <h3>Evaluación</h3>
-        <p>Información sobre mecanismos de evaluación y seguimiento institucional.</p>
+        <p>Información sobre mecanismos de evaluación y seguimiento institucional</p>
       </article>
 
       <article class="card">
         <span class="card-number" aria-hidden="true">✓</span>
         <h3>Transparencia</h3>
-        <p>Documentos y recursos institucionales disponibles para la comunidad.</p>
+        <p>Documentos y recursos institucionales disponibles para la comunidad</p>
       </article>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="administracion" aria-labelledby="administracion-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Gestión institucional</p>
+          <h2 id="administracion-title">Dirección de Administración.</h2>
+        </div>
+        <p>Información sobre la gestión administrativa y los servicios de apoyo de la Facultad.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Dirección de Administración</h3>
+          <p>Conoce las áreas, servicios y procesos que acompañan el funcionamiento institucional.</p>
+          <a href="<?php echo esc_url(home_url('/administracion/')); ?>">
+            Ver información <span aria-hidden="true">→</span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -244,9 +283,9 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">Presencia territorial</p>
-          <h2 id="filiales-title">Filiales.</h2>
+          <h2 id="filiales-title">Filiales</h2>
         </div>
-        <p>Selecciona una filial para acceder a su información.</p>
+        <p>Selecciona una filial para acceder a su información</p>
       </div>
 
       <div class="filial-links" aria-label="Accesos a las filiales">
@@ -272,8 +311,8 @@
   <section class="contact section-alt" id="contacto" aria-labelledby="contacto-title">
     <div class="container">
       <p class="eyebrow">Estamos para escucharte</p>
-      <h2 id="contacto-title">Contacto.</h2>
-      <p>Si necesitas información sobre carreras, admisiones, investigación o extensión, podrás comunicarte con la Facultad.</p>
+      <h2 id="contacto-title">Contacto</h2>
+      <p>Si necesitas información sobre carreras, admisiones, investigación o extensión, podrás comunicarte con la Facultad</p>
       <a class="button" href="mailto:secretariageneralhuma@uni.edu.py">Solicitar información</a>
     </div>
   </section>
