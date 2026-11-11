@@ -1,15 +1,34 @@
 <?php get_header(); ?>
 
 <main id="contenido">
+  <?php
+  $uploads = wp_upload_dir();
+  $hero_logo_url = trailingslashit($uploads['baseurl']) . '2026/11/LogoHD.png';
+  ?>
+
   <section class="hero" id="inicio" aria-labelledby="hero-title">
     <div class="hero-content container">
-      <p class="eyebrow">Universidad Nacional de Itapúa</p>
-      <h1 class="hero-title-es" id="hero-title">
-      Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní
-      </h1>
-      <p class="hero-title-gn" lang="gn">
-        Yvyporareko, Tekoaty Rembikuaa ha Guarani Arandupy Mbo'ehaoite
-      </p>
+      <div class="hero-lockup">
+        <div class="hero-logo-wrap">
+          <img
+            class="hero-logo"
+            src="<?php echo esc_url($hero_logo_url); ?>"
+            alt="Logo de la Facultad de Humanidades"
+          >
+        </div>
+
+        <div class="hero-text">
+          <p class="eyebrow">Universidad Nacional de Itapúa</p>
+
+          <h1 class="hero-title-es" id="hero-title">
+            Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní
+          </h1>
+
+          <p class="hero-title-gn" lang="gn">
+            Yvyporareko, Tekoaty Rembikuaa ha Guarani Arandupy Mbo'ehaoite
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
