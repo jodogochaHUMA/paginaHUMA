@@ -43,7 +43,7 @@
       <p>En el 2004, la Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní crea la carrera de Ciencias de la Educación con Énfasis en Ciencias Sociales, Ciencias Básicas y Matemáticas.</p>
       <p>Al inicio del 2008, la Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní habilita nuevas carreras de Licenciatura en Ciencias Sociales con Énfasis en Trabajo Social y Relaciones Internacionales.</p>
       <p>Actualmente esta Unidad Académica ha diversificado su oferta académica ya que además de la Licenciatura de Bilingüismo Guaraní – Castellano cuenta con las carreras de Licenciatura en Ciencias Sociales, Educación, Lengua Inglesa, Psicología y otras especializaciones.</p>
-      <a class="button intro-more" href="<?php echo esc_url(home_url('/institucional/')); ?>">Ver más</a>
+      <a class="button intro-more" href="#">Ver más</a>
     </div>
   </section>
 
@@ -317,6 +317,12 @@
       <?php endif; ?>
 
       <?php wp_reset_postdata(); ?>
+
+      <div class="news-all-wrap">
+        <a class="button" href="#">
+          Todas las noticias
+      </a>
+      </div>
     </div>
   </section>
 

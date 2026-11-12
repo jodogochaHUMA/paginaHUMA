@@ -55,6 +55,19 @@
     </div>
 
     <aside class="single-news-sidebar" aria-label="Más noticias">
+      <div class="sidebar-box">
+        <h3>Accesos rápidos</h3>
+        <ul>
+          <li><a href="<?php echo esc_url(home_url('')); ?>">Información Institucional</a></li>
+          <li><a href="<?php echo esc_url(home_url('')); ?>">Carreras</a></li>
+          <li><a href="<?php echo esc_url(home_url('')); ?>">Investigación</a></li>
+          <li><a href="<?php echo esc_url(home_url('')); ?>">Normativas</a></li>
+          <li><a href="<?php echo esc_url(home_url('')); ?>">MECIP</a></li>
+          <li><a href="<?php echo esc_url(home_url('')); ?>">Departamento de Lenguas</a></li>
+          <li><a href="<?php echo esc_url(home_url('')); ?>">Contacto</a></li>
+        </ul>
+      </div>
+      
       <section class="single-news-sidebar-box">
         <h2>Noticias recientes</h2>
         <ul>
@@ -90,19 +103,6 @@
         </ul>
         <?php wp_reset_postdata(); ?>
       </section>
-
-      <div class="sidebar-box">
-        <h3>Accesos rápidos</h3>
-        <ul>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Información Institucional</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Carreras</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Investigación</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Normativas</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">MECIP</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Departamento de Lenguas</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Contacto</a></li>
-        </ul>
-      </div>
     </aside>
   </div>
 </main>
