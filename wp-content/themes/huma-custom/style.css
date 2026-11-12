@@ -1228,3 +1228,137 @@ h3 {
   color: var(--black);
   text-decoration: none;
 }
+
+/* Enlaces externos importantes */
+.important-links-section {
+  background: var(--cream);
+}
+
+.important-links-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.important-link-card {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--ink);
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.important-link-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 34px rgba(23, 23, 23, 0.12);
+  text-decoration: none;
+}
+
+.important-link-card img {
+  display: block;
+  width: 100%;
+  height: 190px;
+  padding: 1rem;
+  object-fit: contain;
+  background: var(--white);
+}
+
+.important-link-card span {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: 64px;
+  padding: 0.8rem 1rem;
+  border-top: 1px solid var(--line);
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .important-links-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 520px) {
+  .important-links-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .important-link-card img {
+    height: 180px;
+  }
+}
+
+.contact-directory {
+  padding: 5rem 0;
+}
+
+.contact-directory-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.contact-department {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.65rem;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+
+.contact-department h3 {
+  margin: 0 0 0.35rem;
+  color: var(--ink);
+  font-size: 1.3rem;
+}
+
+.contact-department a {
+  overflow-wrap: anywhere;
+  color: #76580d;
+  text-decoration: none;
+}
+
+.contact-department a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.contact-service-notice {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid var(--yellow);
+  background: #fff;
+  color: var(--ink);
+}
+
+.contact-service-notice strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.contact-service-notice p {
+  margin: 0;
+  color: var(--muted);
+}
+
+@media (max-width: 900px) {
+  .contact-directory-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .contact-directory-grid {
+    grid-template-columns: 1fr;
+  }
+}

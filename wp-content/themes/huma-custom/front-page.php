@@ -132,7 +132,7 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">Formación avanzada</p>
-          <h2 id="posgrado-title">Posgrado.</h2>
+          <h2 id="posgrado-title">Posgrado</h2>
         </div>
         <p>Conoce las propuestas de formación de posgrado de la Facultad</p>
       </div>
@@ -145,6 +145,100 @@
             Ver información <span aria-hidden="true">→</span>
           </a>
         </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section container" id="calidad" aria-labelledby="calidad-title">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">Compromiso institucional</p>
+        <h2 id="calidad-title">Calidad Institucional</h2>
+      </div>
+      <p>Información sobre los procesos, políticas e iniciativas orientados a la mejora continua de la Facultad</p>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <span class="card-number" aria-hidden="true">✓</span>
+        <h3>Evaluación y Acreditación</h3>
+        <p>Información sobre mecanismos de evaluación y seguimiento institucional, Carreras Acreditadas y en procesos de evaluación</p>
+      </article>
+
+      <article class="card">
+        <span class="card-number" aria-hidden="true">✓</span>
+        <h3>Planes de Mejora</h3>
+        <p>Información sobre planes de mejora desarrollados por las diferentes carreras de la facultad</p>
+      </article>
+
+      <article class="card">
+        <span class="card-number" aria-hidden="true">✓</span>
+        <h3>MECIP</h3>
+        <p>Información referente a MECIP</p>
+      </article>
+
+      <article class="card">
+        <span class="card-number" aria-hidden="true">✓</span>
+        <h3>Seguimiento e Impacto</h3>
+        <p>Actividades que impactan en la sociedad</p>
+      </article>
+
+      <article class="card">
+        <span class="card-number" aria-hidden="true">✓</span>
+        <h3>Documentación</h3>
+        <p>Documentos y recursos institucionales disponibles para la comunidad</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="administracion" aria-labelledby="administracion-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Gestión institucional</p>
+          <h2 id="administracion-title">Dirección de Administración</h2>
+        </div>
+        <p>Información sobre la gestión administrativa y los servicios de apoyo de la Facultad</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Dirección de Administración</h3>
+          <p>Conoce las áreas, servicios y procesos que acompañan el funcionamiento institucional</p>
+          <a href="<?php echo esc_url(home_url('/administracion/')); ?>">
+            Ver información <span aria-hidden="true">→</span>
+          </a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section filiales-section" id="filiales" aria-labelledby="filiales-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Presencia territorial</p>
+          <h2 id="filiales-title">Filiales</h2>
+        </div>
+        <p>Selecciona una filial para acceder a su información</p>
+      </div>
+
+      <div class="filial-links" aria-label="Accesos a las filiales">
+        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Coronel Bogado">
+          <span>Filial Coronel Bogado</span><span aria-hidden="true">→</span>
+        </a>
+        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial María Auxiliadora">
+          <span>Filial María Auxiliadora</span><span aria-hidden="true">→</span>
+        </a>
+        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Mayor Otaño">
+          <span>Filial Mayor Otaño</span><span aria-hidden="true">→</span>
+        </a>
+        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Natalio">
+          <span>Filial Natalio</span><span aria-hidden="true">→</span>
+        </a>
+        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial San Pedro del Paraná">
+          <span>Filial San Pedro del Paraná</span><span aria-hidden="true">→</span>
+        </a>
       </div>
     </div>
   </section>
@@ -226,94 +320,111 @@
     </div>
   </section>
 
-  <section class="section container" id="calidad" aria-labelledby="calidad-title">
-    <div class="section-heading">
-      <div>
-        <p class="eyebrow">Compromiso institucional</p>
-        <h2 id="calidad-title">Calidad Institucional</h2>
-      </div>
-      <p>Información sobre los procesos, políticas e iniciativas orientados a la mejora continua de la Facultad</p>
-    </div>
-
-    <div class="cards">
-      <article class="card">
-        <span class="card-number" aria-hidden="true">✓</span>
-        <h3>Mejora continua</h3>
-        <p>Espacio para publicar objetivos, acciones y avances de calidad institucional</p>
-      </article>
-
-      <article class="card">
-        <span class="card-number" aria-hidden="true">✓</span>
-        <h3>Evaluación</h3>
-        <p>Información sobre mecanismos de evaluación y seguimiento institucional</p>
-      </article>
-
-      <article class="card">
-        <span class="card-number" aria-hidden="true">✓</span>
-        <h3>Transparencia</h3>
-        <p>Documentos y recursos institucionales disponibles para la comunidad</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="administracion" aria-labelledby="administracion-title">
+  <section class="section important-links-section" id="enlaces-importantes" aria-labelledby="enlaces-title">
     <div class="container">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Gestión institucional</p>
-          <h2 id="administracion-title">Dirección de Administración.</h2>
+          <p class="eyebrow">Recursos institucionales</p>
+          <h2 id="enlaces-title">Enlaces importantes</h2>
         </div>
-        <p>Información sobre la gestión administrativa y los servicios de apoyo de la Facultad.</p>
+        <p>Accede a plataformas y sitios relacionados con la Facultad</p>
       </div>
 
-      <div class="cards">
-        <article class="card">
-          <h3>Dirección de Administración</h3>
-          <p>Conoce las áreas, servicios y procesos que acompañan el funcionamiento institucional.</p>
-          <a href="<?php echo esc_url(home_url('/administracion/')); ?>">
-            Ver información <span aria-hidden="true">→</span>
-          </a>
+      <div class="important-links-grid">
+        <a class="important-link-card"
+          href="https://campusvirtual.uni.edu.py/course/index.php?categoryid=5"
+          target="_blank" rel="noopener noreferrer">
+          <img src="https://i0.wp.com/humanidades.uni.edu.py/wp-content/uploads/2020/08/moodle-img.png"
+              alt="" loading="lazy">
+          <span>Campus Virtual</span>
+        </a>
+
+        <a class="important-link-card"
+          href="http://maitei.uni.edu.py/login"
+          target="_blank" rel="noopener noreferrer">
+          <img src="https://i0.wp.com/humanidades.uni.edu.py/wp-content/uploads/2022/02/maitei.110a812c.png"
+              alt="" loading="lazy">
+          <span>Proyecto MAITEI</span>
+        </a>
+
+        <a class="important-link-card"
+          href="http://uni.edu.py/"
+          target="_blank" rel="noopener noreferrer">
+          <img src="https://i0.wp.com/humanidades.uni.edu.py/wp-content/uploads/2017/07/UNI-600x330.jpg?resize=600%2C330"
+              alt="" loading="lazy">
+          <span>Universidad Nacional de Itapúa</span>
+        </a>
+
+        <a class="important-link-card"
+          href="http://humanidades.uni.edu.py/observatorio-de-salud-mental/"
+          target="_blank" rel="noopener noreferrer">
+          <img src="https://i0.wp.com/humanidades.uni.edu.py/wp-content/uploads/2019/02/OSM.jpg"
+              alt="" loading="lazy">
+          <span>Observatorio de Salud Mental</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-directory section-alt" id="contacto" aria-labelledby="contacto-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Estamos para ayudarte</p>
+          <h2 id="contacto-title">Contactos Importantes</h2>
+        </div>
+        <p>Comunícate con el área correspondiente por teléfono o correo electrónico</p>
+      </div>
+
+      <div class="contact-directory-grid">
+        <article class="contact-department">
+          <h3>Secretaría General</h3>
+          <a href="tel:+595981182304">0981 – 182 304</a>
+          <a href="mailto:secretariageneralhuma@uni.edu.py">secretariageneralhuma@uni.edu.py</a>
+          <a href="mailto:s.generalhuma@gmail.com">s.generalhuma@gmail.com</a>
+        </article>
+
+        <article class="contact-department">
+          <h3>Dirección Académica</h3>
+          <a href="tel:+595985100860">0985 – 100 860</a>
+          <a href="mailto:d.academicahuma@uni.edu.py">d.academicahuma@uni.edu.py</a>
+        </article>
+
+        <article class="contact-department">
+          <h3>Departamento Administrativo</h3>
+          <a href="tel:+595973816420">0973 – 816 420</a>
+          <a href="mailto:administracion@humanidades.uni.edu.py">administracion@humanidades.uni.edu.py</a>
+        </article>
+
+        <article class="contact-department">
+          <h3>Departamento de Extensión e Investigación</h3>
+          <a href="tel:+595981621445">0981 – 621 445</a>
+          <a href="mailto:investigacionhuma@uni.edu.py">investigacionhuma@uni.edu.py</a>
+        </article>
+
+        <article class="contact-department">
+          <h3>Departamento de Posgrado</h3>
+          <a href="mailto:posgradohumanidades@uni.edu.py">posgradohumanidades@uni.edu.py</a>
+        </article>
+
+        <article class="contact-department">
+          <h3>Departamento de Lenguas</h3>
+          <a href="mailto:d.lenguas@humanidades.uni.edu.py">d.lenguas@humanidades.uni.edu.py</a>
+        </article>
+
+        <article class="contact-department">
+          <h3>Aseguramiento de la Calidad</h3>
+          <a href="mailto:autoevaluacionhumanidades@uni.edu.py">autoevaluacionhumanidades@uni.edu.py</a>
         </article>
       </div>
-    </div>
-  </section>
 
-  <section class="section filiales-section" id="filiales" aria-labelledby="filiales-title">
-    <div class="container">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">Presencia territorial</p>
-          <h2 id="filiales-title">Filiales</h2>
-        </div>
-        <p>Selecciona una filial para acceder a su información</p>
-      </div>
-
-      <div class="filial-links" aria-label="Accesos a las filiales">
-        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Coronel Bogado">
-          <span>Filial Coronel Bogado</span><span aria-hidden="true">→</span>
-        </a>
-        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial María Auxiliadora">
-          <span>Filial María Auxiliadora</span><span aria-hidden="true">→</span>
-        </a>
-        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Mayor Otaño">
-          <span>Filial Mayor Otaño</span><span aria-hidden="true">→</span>
-        </a>
-        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Natalio">
-          <span>Filial Natalio</span><span aria-hidden="true">→</span>
-        </a>
-        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial San Pedro del Paraná">
-          <span>Filial San Pedro del Paraná</span><span aria-hidden="true">→</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact section-alt" id="contacto" aria-labelledby="contacto-title">
-    <div class="container">
-      <p class="eyebrow">Estamos para escucharte</p>
-      <h2 id="contacto-title">Contacto</h2>
-      <p>Si necesitas información sobre carreras, admisiones, investigación o extensión, podrás comunicarte con la Facultad</p>
-      <a class="button" href="mailto:secretariageneralhuma@uni.edu.py">Solicitar información</a>
+      <aside class="contact-service-notice" role="note">
+        <strong>Aviso sobre la línea telefónica</strong>
+        <p>
+          La línea 071-207454 se encuentra temporalmente fuera de servicio.
+          Por favor, comunícate con los números de celulares indicados arriba
+        </p>
+      </aside>
     </div>
   </section>
 </main>
