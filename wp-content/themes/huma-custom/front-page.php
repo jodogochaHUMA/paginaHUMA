@@ -132,7 +132,7 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">Formación avanzada</p>
-          <h2 id="posgrado-title">Posgrado</h2>
+          <h2 id="posgrado-title">Dirección de Posgrado</h2>
         </div>
         <p>Conoce las propuestas de formación de posgrado de la Facultad</p>
       </div>
@@ -141,6 +141,38 @@
         <article class="card">
           <h3>Programas de Posgrado</h3>
           <p>Información sobre programas, requisitos de admisión, planes de estudio y convocatorias</p>
+          <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
+            Ver información <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Documentaciones</h3>
+          <p>Documentos, Formularios y Reglamentaciones</p>
+          <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
+            Ver información <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Internacionalizacion</h3>
+          <p>Información sobre internacionalización de alumnos de posgrado</p>
+          <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
+            Ver información <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Noticias</h3>
+          <p>Noticias vinculadas a programas de posgrado</p>
+          <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
+            Ver información <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Investigación y Extensión</h3>
+          <p>Información sobre vicnulación a investigación y extensión</p>
           <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
             Ver información <span aria-hidden="true">→</span>
           </a>

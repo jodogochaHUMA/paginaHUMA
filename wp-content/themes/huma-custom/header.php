@@ -20,12 +20,16 @@ $logo_url = trailingslashit($uploads['baseurl'])
 <header class="site-header" id="site-header">
   <nav class="nav container" aria-label="Navegación principal">
     <a class="brand"
-       href="<?php echo esc_url(home_url('/')); ?>"
-       aria-label="Facultad de Humanidades, inicio">
+      href="<?php echo esc_url(home_url('/')); ?>"
+      aria-label="Facultad de Humanidades, inicio">
       <img
         class="brand-logo"
         src="<?php echo esc_url($logo_url); ?>"
-        alt="Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní">
+        alt="">
+      <span class="brand-name">
+        Facultad de Humanidades,<br>
+        Ciencias Sociales y Cultura Guaraní
+      </span>
     </a>
 
     <button class="menu-toggle"
