@@ -43,7 +43,7 @@
       <p>En el 2004, la Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní crea la carrera de Ciencias de la Educación con Énfasis en Ciencias Sociales, Ciencias Básicas y Matemáticas.</p>
       <p>Al inicio del 2008, la Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní habilita nuevas carreras de Licenciatura en Ciencias Sociales con Énfasis en Trabajo Social y Relaciones Internacionales.</p>
       <p>Actualmente esta Unidad Académica ha diversificado su oferta académica ya que además de la Licenciatura de Bilingüismo Guaraní – Castellano cuenta con las carreras de Licenciatura en Ciencias Sociales, Educación, Lengua Inglesa, Psicología y otras especializaciones.</p>
-      <a class="button intro-more" href="#">Información Institucional</a>
+      <a class="button intro-more" href="https://humanidades.uni.edu.py/institucional/">Información Institucional</a>
     </div>
   </section>
 
@@ -136,7 +136,7 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">Conocimiento y comunidad</p>
-          <h2 id="investigacion-title">Investigación y Extensión</h2>
+          <h2 id="investigacion-title">Dirección de Investigación y Extensión</h2>
         </div>
         <p>Conoce los departamentos y las iniciativas que conectan la Facultad con la comunidad</p>
       </div>
@@ -145,19 +145,19 @@
         <article class="card">
           <h3>Departamento de Investigación</h3>
           <p>Información sobre proyectos, equipos y actividades de investigación</p>
-          <a href="#contacto">Visitar departamento <span aria-hidden="true">→</span></a>
+          <a href="https://humanidades.uni.edu.py/investigacion/">Visitar departamento <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card">
           <h3>Departamento de Extensión</h3>
           <p>Actividades y proyectos de vinculación con la comunidad</p>
-          <a href="#contacto">Conocer departamento <span aria-hidden="true">→</span></a>
+          <a href="https://humanidades.uni.edu.py/extension/">Conocer departamento <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card">
           <h3>Departamento de Lenguas</h3>
           <p>Conoce las propuestas y actividades del Departamento de Lenguas</p>
-          <a href="#contacto">Conocer departamento <span aria-hidden="true">→</span></a>
+          <a href="https://humanidades.uni.edu.py/dlenguas/">Conocer departamento <span aria-hidden="true">→</span></a>
         </article>
       </div>
     </div>
@@ -177,7 +177,7 @@
         <article class="card">
           <h3>Programas de Posgrado</h3>
           <p>Información sobre programas, requisitos de admisión, planes de estudio y convocatorias</p>
-          <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
+          <a href="https://humanidades.uni.edu.py/posgrados/">
             Ver información <span aria-hidden="true">→</span>
           </a>
         </article>
@@ -185,7 +185,7 @@
         <article class="card">
           <h3>Documentaciones</h3>
           <p>Documentos, Formularios y Reglamentaciones</p>
-          <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
+          <a href="https://humanidades.uni.edu.py/docuposgrado/">
             Ver información <span aria-hidden="true">→</span>
           </a>
         </article>
@@ -193,7 +193,7 @@
         <article class="card">
           <h3>Internacionalizacion</h3>
           <p>Información sobre internacionalización de alumnos de posgrado</p>
-          <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
+          <a href="https://humanidades.uni.edu.py/interposgrado/">
             Ver información <span aria-hidden="true">→</span>
           </a>
         </article>
@@ -201,7 +201,7 @@
         <article class="card">
           <h3>Noticias</h3>
           <p>Noticias vinculadas a programas de posgrado</p>
-          <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
+          <a href="https://humanidades.uni.edu.py/notiposgrado/">
             Ver información <span aria-hidden="true">→</span>
           </a>
         </article>
@@ -209,7 +209,7 @@
         <article class="card">
           <h3>Investigación y Extensión</h3>
           <p>Información sobre vicnulación a investigación y extensión</p>
-          <a href="<?php echo esc_url(home_url('/posgrado/')); ?>">
+          <a href="https://humanidades.uni.edu.py/invesposgrado/">
             Ver información <span aria-hidden="true">→</span>
           </a>
         </article>
@@ -221,46 +221,58 @@
     <div class="section-heading">
       <div>
         <p class="eyebrow">Compromiso institucional</p>
-        <h2 id="calidad-title">Calidad Institucional</h2>
+        <h2 id="calidad-title">Aseguramiento de la Calidad</h2>
       </div>
-      <p>Información sobre los procesos, políticas e iniciativas orientados a la mejora continua de la Facultad</p>
+      <p>Información sobre los procesos, las políticas y las iniciativas implementadas por la Facultad, orientadas a promover la mejora continua.</p>
     </div>
 
     <div class="cards">
       <article class="card">
-        <span class="card-number" aria-hidden="true">✓</span>
         <h3>Evaluación y Acreditación</h3>
-        <p>Información sobre mecanismos de evaluación y seguimiento institucional, Carreras Acreditadas y en procesos de evaluación</p>
+        <p>Información sobre mecanismos de evaluación y seguimiento institucional, Carreras Acreditadas, Programas de Posgrado Acreditados y en procesos de evaluación</p>
+        <a href="https://humanidades.uni.edu.py/evaluacion-y-acreditacion/">
+          Ver información <span aria-hidden="true">→</span>
+        </a>
       </article>
 
       <article class="card">
-        <span class="card-number" aria-hidden="true">✓</span>
         <h3>Planes de Mejora</h3>
-        <p>Información sobre planes de mejora desarrollados por las diferentes carreras de la facultad</p>
+        <p>Información sobre planes de mejora desarrollados por las diferentes carreras y programas de posgrado de la facultad</p>
+        <a href="https://humanidades.uni.edu.py/planes-de-mejora/">
+          Ver información <span aria-hidden="true">→</span>
+        </a>
       </article>
 
       <article class="card">
-        <span class="card-number" aria-hidden="true">✓</span>
         <h3>MECIP</h3>
         <p>Información referente a MECIP</p>
+        <a href="https://humanidades.uni.edu.py/mecip/">
+          Ver información <span aria-hidden="true">→</span>
+        </a>
       </article>
 
       <article class="card">
-        <span class="card-number" aria-hidden="true">✓</span>
-        <h3>Seguimiento e Impacto</h3>
+        <h3>Seguimiento y Evaluación de Impacto</h3>
         <p>Actividades que impactan en la sociedad</p>
+        <a href="https://humanidades.uni.edu.py/seguimiento-e-impacto/">
+          Ver información <span aria-hidden="true">→</span>
+        </a>
       </article>
 
       <article class="card">
-        <span class="card-number" aria-hidden="true">✓</span>
         <h3>Documentación</h3>
         <p>Documentos y recursos institucionales disponibles para la comunidad</p>
+        <a href="https://humanidades.uni.edu.py/docucalidad/">
+          Ver información <span aria-hidden="true">→</span>
+        </a>
       </article>
 
       <article class="card">
-        <span class="card-number" aria-hidden="true">✓</span>
         <h3>Evaluación de Desempeño</h3>
         <p>Recursos relacionados a la evaluación del desempeño de la comunidad educativa</p>
+        <a href="https://humanidades.uni.edu.py/desempeno/">
+          Ver información <span aria-hidden="true">→</span>
+        </a>
       </article>
     </div>
   </section>
@@ -270,26 +282,24 @@
       <div class="section-heading">
         <div>
           <p class="eyebrow">Gestión institucional</p>
-          <h2 id="administracion-title">Dirección de Administración</h2>
+          <h2 id="administracion-title">Dirección Administrativa</h2>
         </div>
         <p>Información sobre la gestión administrativa y los servicios de apoyo de la Facultad</p>
       </div>
 
       <div class="cards">
         <article class="card">
-          <h3>Dirección de Administración</h3>
+          <h3>Departamento Administrativo</h3>
           <p>Conoce las áreas, servicios y procesos que acompañan el funcionamiento institucional</p>
-          <a href="<?php echo esc_url(home_url('/administracion/')); ?>">
+          <a href="https://humanidades.uni.edu.py/administrativo/">
             Ver información <span aria-hidden="true">→</span>
           </a>
         </article>
-      </div>
 
-      <div class="cards">
         <article class="card">
           <h3>Talento Humano</h3>
           <p>Información importante del área de Talento Humano</p>
-          <a href="#">
+          <a href="https://humanidades.uni.edu.py/talento/">
             Ver información <span aria-hidden="true">→</span>
           </a>
         </article>
@@ -403,7 +413,7 @@
       <?php wp_reset_postdata(); ?>
 
       <div class="news-all-wrap">
-        <a class="button" href="#">
+        <a class="button" href="https://humanidades.uni.edu.py/noticias/">
           Todas las noticias
       </a>
       </div>
