@@ -1817,3 +1817,28 @@ h3 {
     justify-content: center;
   }
 }
+
+.important-links-section .important-link-text-card {
+  display: flex;
+  min-height: 90px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid rgba(232, 189, 69, 0.65);
+  background: #171717;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.important-links-section .important-link-text-card:hover {
+  transform: translateY(-3px);
+  background: #292929;
+}
+
+.important-links-section .important-link-text-card span:last-child {
+  color: #e8bd45;
+  font-size: 1.25rem;
+}

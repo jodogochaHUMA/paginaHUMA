@@ -256,6 +256,12 @@
         <h3>Documentación</h3>
         <p>Documentos y recursos institucionales disponibles para la comunidad</p>
       </article>
+
+      <article class="card">
+        <span class="card-number" aria-hidden="true">✓</span>
+        <h3>Evaluación de Desempeño</h3>
+        <p>Recursos relacionados a la evaluación del desempeño de la comunidad educativa</p>
+      </article>
     </div>
   </section>
 
@@ -274,6 +280,16 @@
           <h3>Dirección de Administración</h3>
           <p>Conoce las áreas, servicios y procesos que acompañan el funcionamiento institucional</p>
           <a href="<?php echo esc_url(home_url('/administracion/')); ?>">
+            Ver información <span aria-hidden="true">→</span>
+          </a>
+        </article>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Talento Humano</h3>
+          <p>Información importante del área de Talento Humano</p>
+          <a href="#">
             Ver información <span aria-hidden="true">→</span>
           </a>
         </article>
@@ -436,6 +452,26 @@
               alt="" loading="lazy">
           <span>Observatorio de Salud Mental</span>
         </a>
+
+        <a class="filial-link important-link-text-card" href="#">
+          <span>Repositorio Institucional</span>
+          <span aria-hidden="true">→</span>
+        </a>
+
+        <a class="filial-link important-link-text-card" href="#">
+          <span>Revistas</span>
+          <span aria-hidden="true">→</span>
+        </a>
+
+        <a class="filial-link important-link-text-card" href="#">
+          <span>Bibliotecas Virtuales</span>
+          <span aria-hidden="true">→</span>
+        </a>
+
+        <a class="filial-link important-link-text-card" href="#">
+          <span>SAPS</span>
+          <span aria-hidden="true">→</span>
+        </a>
       </div>
     </div>
   </section>
@@ -471,14 +507,14 @@
         </article>
 
         <article class="contact-department">
-          <h3>Departamento de Extensión e Investigación</h3>
+          <h3>Dirección de Investigación y Extensión</h3>
           <a href="tel:+595981621445">0981 – 621 445</a>
-          <a href="mailto:investigacionhuma@uni.edu.py">investigacionhuma@uni.edu.py</a>
+          <a href="mailto:investigacion@humanidades.uni.edu.py">investigacion@humanidades.uni.edu.py</a>
         </article>
 
         <article class="contact-department">
-          <h3>Departamento de Posgrado</h3>
-          <a href="mailto:posgradohumanidades@uni.edu.py">posgradohumanidades@uni.edu.py</a>
+          <h3>Dirección de Posgrado</h3>
+          <a href="mailto:posgradohuma@uni.edu.py">posgradohuma@uni.edu.py</a>
         </article>
 
         <article class="contact-department">
@@ -488,7 +524,9 @@
 
         <article class="contact-department">
           <h3>Aseguramiento de la Calidad</h3>
+          <a href="tel:+595981621445">0986 – 104 777</a>
           <a href="mailto:autoevaluacionhumanidades@uni.edu.py">autoevaluacionhumanidades@uni.edu.py</a>
+          <a href="mailto:aseguramiento@humanidades.uni.edu.py">aseguramiento@humanidades.uni.edu.py</a>
         </article>
       </div>
 
