@@ -16,7 +16,7 @@
           <li><a href="<?php echo esc_url(home_url('')); ?>">Información Institucional</a></li>
           <li><a href="<?php echo esc_url(home_url('')); ?>">Carreras</a></li>
           <li><a href="<?php echo esc_url(home_url('')); ?>">Investigación</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Normativas</a></li>
+          <li><a href="https://humanidades.uni.edu.py/normativas/">Normativas</a></li>
           <li><a href="<?php echo esc_url(home_url('')); ?>">MECIP</a></li>
           <li><a href="<?php echo esc_url(home_url('')); ?>">Departamento de Lenguas</a></li>
           <li><a href="<?php echo esc_url(home_url('')); ?>">Contacto</a></li>
@@ -64,28 +64,28 @@
           </li>
 
            <li>
-            <a class="filial-link important-link-text-card" href="#">
+            <a class="filial-link important-link-text-card" href="#" style="background-color: #fff;">
               <span>Repositorio Institucional</span>
               <span aria-hidden="true">→</span>
             </a>
           </li>
 
            <li>
-            <a class="filial-link important-link-text-card" href="#">
+            <a class="filial-link important-link-text-card" href="#" style="background-color: #fff;">
               <span>Revistas</span>
               <span aria-hidden="true">→</span>
             </a>
           </li>
 
            <li>
-            <a class="filial-link important-link-text-card" href="#">
+            <a class="filial-link important-link-text-card" href="#" style="background-color: #fff;">
               <span>Bibliotecas Virtuales</span>
               <span aria-hidden="true">→</span>
             </a>
           </li>
 
            <li>
-            <a class="filial-link important-link-text-card" href="#">
+            <a class="filial-link important-link-text-card" href="#" style="background-color: #fff;">
               <span>SAPS</span>
               <span aria-hidden="true">→</span>
             </a>

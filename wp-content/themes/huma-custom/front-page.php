@@ -308,19 +308,19 @@
       </div>
 
       <div class="filial-links" aria-label="Accesos a las filiales">
-        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Coronel Bogado">
+        <a class="filial-link" href="https://humanidades.uni.edu.py/bogado/" aria-label="Solicitar información de Filial Coronel Bogado">
           <span>Filial Coronel Bogado</span><span aria-hidden="true">→</span>
         </a>
-        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial María Auxiliadora">
+        <a class="filial-link" href="https://humanidades.uni.edu.py/mauxiliadora/" aria-label="Solicitar información de Filial María Auxiliadora">
           <span>Filial María Auxiliadora</span><span aria-hidden="true">→</span>
         </a>
-        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Mayor Otaño">
+        <a class="filial-link" href="https://humanidades.uni.edu.py/otano/" aria-label="Solicitar información de Filial Mayor Otaño">
           <span>Filial Mayor Otaño</span><span aria-hidden="true">→</span>
         </a>
-        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial Natalio">
+        <a class="filial-link" href="https://humanidades.uni.edu.py/natalio/" aria-label="Solicitar información de Filial Natalio">
           <span>Filial Natalio</span><span aria-hidden="true">→</span>
         </a>
-        <a class="filial-link" href="#contacto" aria-label="Solicitar información de Filial San Pedro del Paraná">
+        <a class="filial-link" href="https://humanidades.uni.edu.py/san-pedro/" aria-label="Solicitar información de Filial San Pedro del Paraná">
           <span>Filial San Pedro del Paraná</span><span aria-hidden="true">→</span>
         </a>
       </div>
