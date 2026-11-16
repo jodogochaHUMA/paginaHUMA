@@ -50,5 +50,53 @@ $logo_url = trailingslashit($uploads['baseurl'])
       <li><a href="<?php echo esc_url(home_url('/#filiales')); ?>">Filiales</a></li>
       <li><a class="nav-contact" href="<?php echo esc_url(home_url('/#contacto')); ?>">Contacto</a></li>
     </ul>
+
+    <button
+      class="nav-search-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="nav-search-form"
+      aria-label="Abrir buscador"
+    >
+      <svg aria-hidden="true" viewBox="0 0 24 24">
+        <circle cx="10.8" cy="10.8" r="6.8"></circle>
+        <path d="m16 16 5 5"></path>
+      </svg>
+    </button>
+
+    <form class="nav-search-form" id="nav-search-form" role="search" method="get" action="<?php echo esc_url(home_url('/')); ?>" hidden>
+      <label class="nav-search-label" for="nav-search-input">Buscar en el sitio</label>
+      <input id="nav-search-input" type="search" name="s" placeholder="¿Qué deseas encontrar?" required>
+      <button type="submit">Buscar</button>
+    </form>
   </nav>
 </header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggle = document.querySelector('.nav-search-toggle');
+    const form = document.querySelector('#nav-search-form');
+    const input = document.querySelector('#nav-search-input');
+
+    if (!toggle || !form || !input) return;
+
+    toggle.addEventListener('click', function () {
+      const isOpen = toggle.getAttribute('aria-expanded') === 'true';
+
+      toggle.setAttribute('aria-expanded', String(!isOpen));
+      toggle.setAttribute('aria-label', isOpen ? 'Abrir buscador' : 'Cerrar buscador');
+      form.hidden = isOpen;
+
+      if (!isOpen) input.focus();
+    });
+
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && !form.hidden) {
+        form.hidden = true;
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Abrir buscador');
+        toggle.focus();
+      }
+    });
+  });
+</script>
