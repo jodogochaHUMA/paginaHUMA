@@ -13,13 +13,14 @@
       <div class="sidebar-box">
         <h3>Accesos rápidos</h3>
         <ul>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Información Institucional</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Carreras</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Investigación</a></li>
+          <li><a href="https://humanidades.uni.edu.py/institucional/">Información Institucional</a></li>
           <li><a href="https://humanidades.uni.edu.py/normativas/">Normativas</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">MECIP</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Departamento de Lenguas</a></li>
-          <li><a href="<?php echo esc_url(home_url('')); ?>">Contacto</a></li>
+          <li><a href="https://humanidades.uni.edu.py/carreras-2/">Carreras</a></li>
+          <li><a href="https://humanidades.uni.edu.py/investigacion/">Investigación</a></li>
+          <li><a href="https://humanidades.uni.edu.py/dlenguas/">Departamento de Lenguas</a></li>
+          <li><a href="https://humanidades.uni.edu.py/posgrados/">Posgrados</a></li>
+          <li><a href="https://humanidades.uni.edu.py/mecip/">MECIP</a></li>
+          <li><a href="https://humanidades.uni.edu.py/#contacto">Contacto</a></li>
         </ul>
       </div>
 
