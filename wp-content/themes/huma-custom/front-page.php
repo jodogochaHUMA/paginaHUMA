@@ -43,7 +43,35 @@
       <p>En el 2004, la Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní crea la carrera de Ciencias de la Educación con Énfasis en Ciencias Sociales, Ciencias Básicas y Matemáticas.</p>
       <p>Al inicio del 2008, la Facultad de Humanidades, Ciencias Sociales y Cultura Guaraní habilita nuevas carreras de Licenciatura en Ciencias Sociales con Énfasis en Trabajo Social y Relaciones Internacionales.</p>
       <p>Actualmente esta Unidad Académica ha diversificado su oferta académica ya que además de la Licenciatura de Bilingüismo Guaraní – Castellano cuenta con las carreras de Licenciatura en Ciencias Sociales, Educación, Lengua Inglesa, Psicología y otras especializaciones.</p>
-      <a class="button intro-more" href="#">Ver más</a>
+      <a class="button intro-more" href="#">Información Institucional</a>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="gestion" aria-labelledby="gestion-title">
+    <div class="container">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Gestión Institucional</p>
+          <h2 id="gestion-title">Gestión Institucional</h2>
+        </div>
+        <p>Trámites y servicios de apoyo para la comunidad educativa.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Secretaría General</h3>
+          <p>
+            Horario de atención: lunes a viernes, de 07:30 a 20:30.
+          </p>
+          <a
+            href="https://humanidades.uni.edu.py/documentos/formularios/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Formularios <span aria-hidden="true">→</span>
+          </a>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -89,6 +117,14 @@
           <p>Accede a reglamentos, formularios, calendarios y otros documentos académicos.</p>
           <a href="<?php echo esc_url(home_url('/documentos/')); ?>">
             Ver documentos <span aria-hidden="true">→</span>
+          </a>
+        </article>
+
+        <article class="card">
+          <h3>Inscripciones</h3>
+          <p>Inscribite a materias o exámenes acá</p>
+          <a href="https://humanidades.uni.sum.apegua.com">
+            Inscribirme <span aria-hidden="true">→</span>
           </a>
         </article>
       </div>
@@ -419,7 +455,7 @@
           <h3>Secretaría General</h3>
           <a href="tel:+595981182304">0981 – 182 304</a>
           <a href="mailto:secretariageneralhuma@uni.edu.py">secretariageneralhuma@uni.edu.py</a>
-          <a href="mailto:s.generalhuma@gmail.com">s.generalhuma@gmail.com</a>
+          <a>Horario de atención: 7:30 a 20:30 hs.</a>
         </article>
 
         <article class="contact-department">

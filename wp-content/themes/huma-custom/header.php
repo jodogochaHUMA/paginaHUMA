@@ -41,6 +41,7 @@ $logo_url = trailingslashit($uploads['baseurl'])
 
     <ul class="nav-links" id="nav-links">
       <li><a href="<?php echo esc_url(home_url('/#acerca')); ?>">Institucional</a></li>
+      <li><a href="<?php echo esc_url(home_url('/#gestion')); ?>">Gestión</a></li>
       <li><a href="<?php echo esc_url(home_url('/#academico')); ?>">Académico</a></li>
       <li><a href="<?php echo esc_url(home_url('/#investigacion')); ?>">Investigación y Extensión</a></li>
       <li><a href="<?php echo esc_url(home_url('/#posgrado')); ?>">Posgrado</a></li>
