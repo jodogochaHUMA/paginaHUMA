@@ -62,6 +62,34 @@
               <span>Observatorio de Salud Mental</span>
             </a>
           </li>
+
+           <li>
+            <a class="filial-link important-link-text-card" href="#">
+              <span>Repositorio Institucional</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </li>
+
+           <li>
+            <a class="filial-link important-link-text-card" href="#">
+              <span>Revistas</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </li>
+
+           <li>
+            <a class="filial-link important-link-text-card" href="#">
+              <span>Bibliotecas Virtuales</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </li>
+
+           <li>
+            <a class="filial-link important-link-text-card" href="#">
+              <span>SAPS</span>
+              <span aria-hidden="true">→</span>
+            </a>
+          </li>
         </ul>
       </div>
     </aside>

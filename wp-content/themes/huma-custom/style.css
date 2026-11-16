@@ -1842,3 +1842,95 @@ h3 {
   color: #e8bd45;
   font-size: 1.25rem;
 }
+
+/* Paginación de noticias */
+.navigation.pagination {
+  margin: 3rem 0 1rem;
+}
+
+.navigation.pagination .nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+}
+
+.navigation.pagination .page-numbers {
+  display: inline-flex;
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid #dedede;
+  border-radius: 6px;
+  background: #fff;
+  color: #171717;
+  font: 700 0.95rem/1 var(--sans, Arial, sans-serif);
+  text-decoration: none;
+  transition: background-color 0.2s, border-color 0.2s, transform 0.2s;
+}
+
+.navigation.pagination a.page-numbers:hover {
+  transform: translateY(-2px);
+  border-color: #e8bd45;
+  background: #fbf8ef;
+  color: #171717;
+}
+
+.navigation.pagination .page-numbers.current {
+  border-color: #e8bd45;
+  background: #f4d77e;
+  color: #171717;
+  cursor: default;
+}
+
+.navigation.pagination .page-numbers.dots {
+  min-width: 32px;
+  padding-right: 0.25rem;
+  padding-left: 0.25rem;
+  border-color: transparent;
+  background: transparent;
+}
+
+.navigation.pagination a:focus-visible {
+  outline: 3px solid #e8bd45;
+  outline-offset: 3px;
+}
+
+@media (max-width: 520px) {
+  .navigation.pagination .nav-links {
+    gap: 0.35rem;
+  }
+
+  .navigation.pagination .page-numbers {
+    min-width: 40px;
+    min-height: 40px;
+    padding: 0.45rem 0.65rem;
+  }
+}
+
+.post-card-thumbnail {
+  display: block;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.post-card-thumbnail img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.post-card-thumbnail:hover img {
+  transform: scale(1.03);
+}
+
+.post-card-thumbnail:focus-visible {
+  outline: 3px solid var(--yellow);
+  outline-offset: 3px;
+}
