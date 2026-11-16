@@ -89,25 +89,25 @@
         <article class="card" id="formacion-grado">
           <h3>Carreras</h3>
           <p>Información sobre carreras, perfiles de egreso, planes de estudio y requisitos de admisión</p>
-          <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
+          <a href="https://humanidades.uni.edu.py/carreras-2/">Consultar información <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card" id="formacion-posgrado">
           <h3>Coordinación de Carreras</h3>
           <p>Espacio para conocer más sobre las carreras</p>
-          <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
+          <a href="https://humanidades.uni.edu.py/coordinaciones/">Consultar información <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card">
           <h3>Admisión</h3>
           <p>Conoce el proceso de admisión y presenta tu postulación</p>
-          <a href="#contacto">Consultar información <span aria-hidden="true">→</span></a>
+          <a href="https://humanidades.uni.edu.py/admision/">Consultar información <span aria-hidden="true">→</span></a>
         </article>
 
         <article class="card">
           <h3>Bienestar Estudiantil</h3>
           <p>Servicios, acompañamiento y actividades destinados al bienestar de la comunidad estudiantil.</p>
-          <a href="<?php echo esc_url(home_url('/bienestar-estudiantil/')); ?>">
+          <a href="https://humanidades.uni.edu.py/bienestar/">
             Ver información <span aria-hidden="true">→</span>
           </a>
         </article>
@@ -115,7 +115,7 @@
         <article class="card">
           <h3>Documentos</h3>
           <p>Accede a reglamentos, formularios, calendarios y otros documentos académicos.</p>
-          <a href="<?php echo esc_url(home_url('/documentos/')); ?>">
+          <a href="https://humanidades.uni.edu.py/docuacadem/">
             Ver documentos <span aria-hidden="true">→</span>
           </a>
         </article>
