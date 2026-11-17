@@ -463,22 +463,22 @@
           <span>Observatorio de Salud Mental</span>
         </a>
 
-        <a class="filial-link important-link-text-card" href="#">
+        <a class="filial-link important-link-text-card" href="https://repositorio.uni.edu.py/handle/123456789/12">
           <span>Repositorio Institucional</span>
           <span aria-hidden="true">→</span>
         </a>
 
-        <a class="filial-link important-link-text-card" href="#">
+        <a class="filial-link important-link-text-card" href="https://revistas.uni.edu.py/index.php/unihumanitas/es">
           <span>Revistas</span>
           <span aria-hidden="true">→</span>
         </a>
 
-        <a class="filial-link important-link-text-card" href="#">
+        <a class="filial-link important-link-text-card" href="https://humanidades.uni.edu.py/bibliotecasvirtuales/">
           <span>Bibliotecas Virtuales</span>
           <span aria-hidden="true">→</span>
         </a>
 
-        <a class="filial-link important-link-text-card" href="#">
+        <a class="filial-link important-link-text-card" href="https://humanidades.uni.edu.py/saps/">
           <span>SAPS</span>
           <span aria-hidden="true">→</span>
         </a>

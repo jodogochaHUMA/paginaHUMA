@@ -65,28 +65,28 @@
           </li>
 
            <li>
-            <a class="filial-link important-link-text-card" href="#" style="background-color: #fff;">
+            <a class="filial-link important-link-text-card" href="https://repositorio.uni.edu.py/handle/123456789/12" style="background-color: #fff;">
               <span>Repositorio Institucional</span>
               <span aria-hidden="true">→</span>
             </a>
           </li>
 
            <li>
-            <a class="filial-link important-link-text-card" href="#" style="background-color: #fff;">
+            <a class="filial-link important-link-text-card" href="https://revistas.uni.edu.py/index.php/unihumanitas/es" style="background-color: #fff;">
               <span>Revistas</span>
               <span aria-hidden="true">→</span>
             </a>
           </li>
 
            <li>
-            <a class="filial-link important-link-text-card" href="#" style="background-color: #fff;">
+            <a class="filial-link important-link-text-card" href="https://humanidades.uni.edu.py/bibliotecasvirtuales/" style="background-color: #fff;">
               <span>Bibliotecas Virtuales</span>
               <span aria-hidden="true">→</span>
             </a>
           </li>
 
            <li>
-            <a class="filial-link important-link-text-card" href="#" style="background-color: #fff;">
+            <a class="filial-link important-link-text-card" href="https://humanidades.uni.edu.py/saps/" style="background-color: #fff;">
               <span>SAPS</span>
               <span aria-hidden="true">→</span>
             </a>
