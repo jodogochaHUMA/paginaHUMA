@@ -17,6 +17,7 @@
           <li><a href="https://humanidades.uni.edu.py/normativas/">Normativas</a></li>
           <li><a href="https://humanidades.uni.edu.py/carreras-2/">Carreras</a></li>
           <li><a href="https://humanidades.uni.edu.py/investigacion/">Investigación</a></li>
+          <li><a href="https://humanidades.uni.edu.py/extension/">Extensión</a></li>
           <li><a href="https://humanidades.uni.edu.py/dlenguas/">Departamento de Lenguas</a></li>
           <li><a href="https://humanidades.uni.edu.py/posgrados/">Posgrados</a></li>
           <li><a href="https://humanidades.uni.edu.py/mecip/">MECIP</a></li>
