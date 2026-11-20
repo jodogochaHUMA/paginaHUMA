@@ -525,6 +525,7 @@
         <article class="contact-department">
           <h3>Dirección de Posgrado</h3>
           <a href="mailto:posgradohuma@uni.edu.py">posgradohuma@uni.edu.py</a>
+          <a href="tel:+595986768601">Whatsapp: +595986768601</a>
         </article>
 
         <article class="contact-department">
